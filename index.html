@@ -25,7 +25,7 @@
     .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.shot{background:#0e1319;border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:12px;box-shadow:0 16px 35px rgba(0,0,0,.22)}.shot img{display:block;width:100%;border-radius:14px}.shot figcaption{padding:12px 4px 4px;color:var(--muted);font-size:.93rem}
     .download{display:grid;grid-template-columns:1.2fr .8fr;gap:20px;align-items:stretch}.download .card{padding:28px}.download h3{font-size:1.5rem}.meta{display:grid;gap:10px;margin-top:18px}.meta div{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:8px}.meta span:first-child{color:var(--muted)}
     .notice{border-left:4px solid var(--accent);padding:16px 18px;background:rgba(255,176,0,.07);border-radius:12px;color:#e7edf5}
-    footer{border-top:1px solid rgba(255,255,255,.08);padding:34px 0 50px;color:var(--muted);font-size:.93rem}.small{font-size:.88rem;color:var(--muted)}
+    footer{border-top:1px solid rgba(255,255,255,.08);padding:34px 0 50px;color:var(--muted);font-size:.93rem}.footer-links{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px}.footer-links a{color:var(--text);text-decoration:none}.footer-links a:hover{color:var(--accent)}.small{font-size:.88rem;color:var(--muted)}
     @media(max-width:900px){.hero,.download{grid-template-columns:1fr}.hero{padding-top:44px}.features,.shots{grid-template-columns:1fr}.hero-shot{max-width:620px}.navlinks a:not(.keep){display:none}}
   </style>
 </head>
@@ -70,7 +70,36 @@
   </div></section>
 
   <section><div class="wrap"><div class="section-head"><h2>Datenschutz</h2><p>JoeRT Rallye-Timer verwendet den Standort des Smartphones ausschließlich zur GPS-gestützten Streckenmessung.</p></div><div class="card"><p>Die Messdaten werden lokal auf dem Gerät verarbeitet. Es werden keine Standort-, Nutzungs- oder sonstigen personenbezogenen Daten an den Entwickler oder an Dritte übertragen. Die App enthält keine Werbung, keine Analyse- oder Trackingdienste und benötigt keine Internetverbindung.</p><p style="margin-top:14px">Für die Streckenmessung benötigt die App Zugriff auf den Gerätestandort. Die Benachrichtigungsberechtigung wird benötigt, damit Android die laufende GPS-Messung auch im Hintergrund zuverlässig fortführen kann.</p></div></div></section>
+
+  <section id="feedback">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Feedback & Unterstützung</h2>
+        <p>JoeRT Rallye-Timer ist ein kostenloses Hobbyprojekt. Rückmeldungen aus der Praxis helfen dabei, die App weiter zu verbessern.</p>
+      </div>
+      <div class="card">
+        <p>Fehler, Verbesserungsvorschläge oder Wünsche kannst du direkt über GitHub melden. Dort findest du auch die Projektseite und zukünftige Versionen.</p>
+        <div class="cta">
+          <a class="btn secondary" href="https://github.com/ehrkamp/joert-rallye-timer" target="_blank" rel="noopener">GitHub-Projekt öffnen</a>
+          <a class="btn primary" href="https://github.com/ehrkamp/joert-rallye-timer/issues" target="_blank" rel="noopener">Feedback & Fehler melden</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
-<footer><div class="wrap"><strong>JoeRT Rallye-Timer</strong><br>Kostenlose Android-App für Oldtimer- und Gleichmäßigkeitsrallyes.</div></footer>
+<footer>
+  <div class="wrap">
+    <strong>JoeRT Rallye-Timer</strong><br>
+    Kostenlose Android-App für Oldtimer- und Gleichmäßigkeitsrallyes.
+    <div class="footer-links">
+      <a href="https://github.com/ehrkamp/joert-rallye-timer" target="_blank" rel="noopener">GitHub-Projekt</a>
+      <a href="https://github.com/ehrkamp/joert-rallye-timer/issues" target="_blank" rel="noopener">Feedback & Fehler melden</a>
+      <a href="#download">Download</a>
+      <a href="#funktionen">Funktionen</a>
+    </div>
+    <div style="margin-top:14px">© 2026 Jörg Ehrkamp</div>
+  </div>
+</footer>
 </body>
 </html>
